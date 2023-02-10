@@ -1,1 +1,12 @@
-<p>fib works!</p>
+<div>
+  <p>You should totally open the console, enter a number, and then press return</p>
+</div>
+
+<div>
+  <form class="form" [formGroup]="inputForm" (submit)="onSubmit()">
+    <mat-form-field>
+      <mat-label>Input</mat-label>
+      <input matInput placeholder="n" formControlName="inputText" autocomplete="off">
+    </mat-form-field>
+  </form>
+</div>
