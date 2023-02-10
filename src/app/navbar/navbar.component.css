@@ -1,0 +1,12 @@
+.navbar{
+  padding: 0px;
+}
+
+.nav-link{
+  background: white;
+  color: black;
+}
+
+.nav-link:hover{
+  color: green;
+}
