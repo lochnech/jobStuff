@@ -1,12 +1,13 @@
 <div>
-  <p>You should totally open the console, enter a number, and then press return</p>
+  <p>Open the console, then select an input. Upon pressing return/enter or pressing the Submit button, the nth term of the Fibonacci sequence will be printed to the console.</p>
 </div>
 
 <div>
   <form class="form" [formGroup]="inputForm" (submit)="onSubmit()">
     <mat-form-field>
-      <mat-label>Input</mat-label>
-      <input matInput placeholder="n" formControlName="inputText" autocomplete="off">
+      <mat-label>nth Term</mat-label>
+      <input matInput placeholder="Ex. 3" formControlName="inputText" autocomplete="off">
     </mat-form-field>
   </form>
+  <button mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
 </div>

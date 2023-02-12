@@ -1,13 +1,17 @@
 .navbar{
   padding: 0px;
-  background: white;
+  background: lightgray;
 }
 
 .nav-link{
-  background: white;
+  background: lightgray;
   color: black;
 }
 
 .nav-link:hover{
-  color: green;
+  color: slateblue;
+}
+
+far {
+  padding-left: 100px;
 }

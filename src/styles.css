@@ -1,8 +1,12 @@
-li{
-  float: right;
+html, body {
+  height: 100%;
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -26,6 +30,3 @@ li a {
 li a:hover {
   background-color: #111;
 }
-
-html, body { height: 50px; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
